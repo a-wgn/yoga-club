@@ -77,7 +77,10 @@ body {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.png) no-repeat center center;
+    background: url(../images/hero-image.jpeg) no-repeat center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #overflow {
@@ -92,6 +95,7 @@ body {
     text-align: center;
     border: solid 2px gold;
     text-align: center;
+    margin-top: 10px;
 }
 
 #text-left {
@@ -104,4 +108,52 @@ body {
     text-decoration: underline;
     text-align: left;
     margin-top: 10px;
+    margin-left: 10px;
+}
+
+#h-classes {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Style for images from https://www.youtube.com/watch?v=_JvHvGGvps0 */
+
+img {
+    width: 400px;
+    height: 300px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+img p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 5rem;
+    color: white;
+}
+
+img:hover {
+    box-shadow: 0 0 0 150px transparent inset;
+}
+
+img:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.images {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.row::after {
+    content:"";
+    clear: both;
+    display: table;
 }
