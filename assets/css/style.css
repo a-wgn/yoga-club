@@ -1,10 +1,30 @@
+/* Font */
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+h2 {
+    font-size: 2.5rem
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h1, h2 ,h3 {
+    font-family: Kalam, sans-serif; 
+    letter-spacing: 1px;
+    color: rgb(142, 137, 137);
+}
+
+
+/* Structure */
 
 body {
     font-family: Kalam, sans-serif;
     font-weight: 300;
     color: rgb(142, 137, 137);
+    font-size: 1.3rem;
 }
+
 
 * {
     margin: 0;
@@ -12,14 +32,7 @@ body {
     border: none;
 }
 
-/* headings and logo */
-
-h1, h2 {
-    font-family: Kalam, sans-serif;
-    text-transform: uppercase;  
-    letter-spacing: 2px;
-    color: gb(142, 137, 137);
-}
+/* logo */
 
 #logo {
     float: left;
@@ -29,19 +42,17 @@ h1, h2 {
 /* navigation bar and reordering list*/
 
 #nav-bar {
-    font-size: 150%;
+    font-size: 110%;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Kalam, sans-serif;
 }
 
 #nav-bar li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
-}
-
-ul {
-    display: flex;
-    justify-content: flex-end;
+    margin-right: 20px;
 }
 
 #nav-bar a {
@@ -59,4 +70,38 @@ ul {
 
 .active-border {
     border-bottom: 1px solid rgb(142, 137, 137);
+}
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.png) no-repeat center center;
+}
+
+#overflow {
+    overflow: hidden;  
+    height: 600px;
+    width: 100%; 
+}
+
+/* about us */
+
+#about-us {
+    text-align: center;
+    border: solid 2px gold;
+    text-align: center;
+}
+
+#text-left {
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+#style {
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 10px;
 }
