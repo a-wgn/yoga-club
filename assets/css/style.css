@@ -114,6 +114,7 @@ body {
 .h-style {
     text-align: center;
     margin-top: 10px;
+    text-decoration: underline;
 }
 
 /* Style for images from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity */
