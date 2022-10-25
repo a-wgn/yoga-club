@@ -77,8 +77,9 @@ body {
 #hero-image {
     height: 600px;
     width: 100%;
+    position: absolute;
     background: url(../images/hero-image.jpeg) no-repeat center center;
-    display: flex;
+    display: auto;
     justify-content: center;
     align-items: center;
 }
@@ -93,9 +94,8 @@ body {
 
 #about-us {
     text-align: center;
-    border: solid 2px gold;
     text-align: center;
-    margin-top: 10px;
+    background-color: antiquewhite;
 }
 
 #text-left {
@@ -104,49 +104,63 @@ body {
     text-align: left;
 }
 
-#style {
+#p-style {
     text-decoration: underline;
     text-align: left;
     margin-top: 10px;
     margin-left: 10px;
 }
 
-#h-classes {
+.h-style {
     text-align: center;
     margin-top: 10px;
 }
 
-/* Style for images from https://www.youtube.com/watch?v=_JvHvGGvps0 */
+/* Style for images from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity */
 
-.images {
-    width: 400px;
-    height: 300px;
-    transition: 0.5s;
+.row {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-size: cover;
 }
 
-.images p {
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    font-size: 5rem;
-    color: white;
+.column {
+    flex: 33.33%;
+    padding: 2px;
 }
 
-.images:hover {
-    box-shadow: 0 0 0 150px transparent inset;
-}
-
-.images:hover p {
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
     opacity: 1;
-    transform: scale(1);
-}
-.images-align  {
-    float: left;
-    width: 25%;
-    padding: 0;
-}
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .8s;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 50px;
+  }
