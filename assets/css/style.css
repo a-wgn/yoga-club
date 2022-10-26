@@ -36,7 +36,7 @@ body {
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 /* navigation bar and reordering list*/
@@ -161,6 +161,27 @@ body {
   }
   
   .text {
-    color: black;
+    color: rgb(142, 137, 137);
     font-size: 50px;
+  }
+
+
+  /* Form styling */
+
+  /* Footer styling */
+
+  #footer-style {
+    background-color: antiquewhite;
+    text-align: center;
+    word-spacing: 30px;
+  }
+
+  .fa {
+    color: rgb(142, 137, 137);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 100px;
+    width: 20px;
   }
