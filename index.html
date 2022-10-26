@@ -78,9 +78,6 @@
          </div>
         </div>
 
-        <div>
-            <table
-        </div>
     </section>
 
         <!-- last section sign up form -->
@@ -89,16 +86,32 @@
     <h2 class="h-style">Sign Up</h2>
     <h3 class="h-style">Join our classes for 10€ per class!</h3>
 
-    <div>
+    <div id="form-align">
     <form action="https://formdump.codeinstitute.net" method="POST">
 		
         <lable for="name-filed">Name</lable>
-		
 		<input id="name-field" type="text">
-
+        <br>
 		<lable for="email-field">Email</lable>
-		
 		<input id="email-field" type="email">
+        <br>
+        <input type="radio" id="hot-yoga" name="classes" value="hot-yoga">
+        <label for="hot-yoga">Hot Yoga</label>
+        <br>
+        <input type="radio" id="vinyasa-flow" name="classes" value="vinyasa-flow">
+        <label for="vinyasa-flow">Vinyasa Flow</label>
+        <br>
+        <input type="radio" id="yin-yoga" name="classes" value="yin-yoga">
+        <label for="yin-yoga">Yin Yoga</label>
+        <br>
+        <label for="time">Times</label>
+        <select id="time" name="time">
+        <option value="17:00" class="dropdown">17:00</option>
+        <option value="18:00" class="dropdown">18:00</option>
+        <option value="19:00" class="dropdown">19:00</option>
+        </select>
+        <br>
+        <input type="submit">
 
         </form>
     </div>
