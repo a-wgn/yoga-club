@@ -12,7 +12,7 @@
 body { 
     font-family: Kalam, sans-serif;
     font-size: 1.3rem;
-    color: rgb(142, 137, 137);
+    color: black;
     font-weight: 400;
 }
 
@@ -33,6 +33,7 @@ h3 {
 #logo {
     float: left;
     font-size: 200%;
+    color: black;
 }
 
 /* Navigation and reordering list */
@@ -61,11 +62,11 @@ h3 {
 }
 
 #nav-bar a:hover {
-    border-bottom: 1px solid rgb(142, 137, 137);
+    border-bottom: 1px solid black;
 }
 
 .active-border {
-    border-bottom: 1px solid rgb(142, 137, 137);
+    border-bottom: 1px solid black;
 }
 
 /* Hero image */ 
@@ -151,7 +152,7 @@ text-align: center;
   }
   
   .text {
-    color: rgb(142, 137, 137);
+    color: black;
     font-size: 2rem;
   }
 
@@ -185,14 +186,14 @@ table {
 .fields {   
     width: 25%;
     height: 30px;
-    border: 1px solid rgb(142, 137, 137);
+    border: 1px solid black;
     display: inline-flex;
 }
 
 #classes-select{
     width: 25%;
     height: 30px;
-    border: 1px solid rgb(142, 137, 137);
+    border: 1px solid black;
 }
 
 label,input {
@@ -208,7 +209,7 @@ input[type=submit] {
     margin-top: 10px;
     font-size: 20px;
     font-family: Kalam, sans-serif;
-    color: rgb(142, 137, 137);
+    color: black;
     background-color: antiquewhite;
 }
 
@@ -220,7 +221,7 @@ input[type=submit] {
   }
 
   .fa {
-    color: rgb(142, 137, 137);
+    color: black;
     text-decoration: none;
     margin-top: 20px;
     margin-bottom: 20px;
