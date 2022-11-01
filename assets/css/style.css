@@ -195,14 +195,22 @@ table {
     border: 1px solid rgb(142, 137, 137);
 }
 
-label,input{
+label,input {
     display:flex;
-    flex-direction:column;
+    justify-content: center;
     margin-top: 10px;
     text-align: center;
 }
 
-
+input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Kalam, sans-serif;
+    color: rgb(142, 137, 137);
+    background-color: antiquewhite;
+}
 
   /* Footer styling */
 
