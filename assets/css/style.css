@@ -88,6 +88,7 @@ h3 {
 
 #about-us {
 text-align: center;
+background-color: antiquewhite;
 }
 
 #text-left {
@@ -105,7 +106,6 @@ margin-left: 10px;
 
 .h-style {
 text-align: center;
-margin-top: 10px;
 }
 
 /* Style for images from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity */
@@ -173,6 +173,35 @@ table {
 }
 
 /* Form styling */
+
+#sign-up {
+    background-color: antiquewhite;
+}
+
+#form-align {
+    text-align: center;
+}
+
+.fields {   
+    width: 25%;
+    height: 30px;
+    border: 1px solid rgb(142, 137, 137);
+    display: inline-flex;
+}
+
+#classes-select{
+    width: 25%;
+    height: 30px;
+    border: 1px solid rgb(142, 137, 137);
+}
+
+label,input{
+    display:flex;
+    flex-direction:column;
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 
   /* Footer styling */
