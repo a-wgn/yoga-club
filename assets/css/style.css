@@ -1,6 +1,25 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
+/* Structure */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body { 
+    font-family: Kalam, sans-serif;
+    font-size: 1rem;
+    color: rgb(142, 137, 137);
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    letter-spacing: 1px;
+}
+
 h2 {
     font-size: 2.5rem
 }
@@ -9,41 +28,18 @@ h3 {
     font-size: 1.5rem;
 }
 
-h1, h2 ,h3 {
-    font-family: Kalam, sans-serif; 
-    letter-spacing: 1px;
-    color: rgb(142, 137, 137);
-}
-
-
-/* Structure */
-
-body {
-    font-family: Kalam, sans-serif;
-    font-weight: 300;
-    color: rgb(142, 137, 137);
-    font-size: 1.3rem;
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-/* logo */
+/* Logo */
 
 #logo {
     float: left;
     font-size: 200%;
 }
 
-/* navigation bar and reordering list*/
+/* Navigation and reordering list */
 
 #nav-bar {
     font-size: 110%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     display: flex;
     justify-content: flex-end;
     font-family: Kalam, sans-serif;
@@ -72,16 +68,14 @@ body {
     border-bottom: 1px solid rgb(142, 137, 137);
 }
 
-/* hero image */
+/* Hero image */ 
 
 #hero-image {
     height: 600px;
     width: 100%;
     position: absolute;
     background: url(../images/hero-image.jpeg) no-repeat center center;
-    display: auto;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 #overflow {
@@ -90,30 +84,28 @@ body {
     width: 100%; 
 }
 
-/* about us */
+/* About us section of Yoga Club */ 
 
 #about-us {
-    text-align: center;
-    text-align: center;
-    background-color: antiquewhite;
+text-align: center;
 }
 
 #text-left {
-    margin-top: 10px;
-    margin-left: 30px;
-    text-align: left;
+margin-top: 10px;
+margin-left: 30px;
+text-align: left;
 }
 
 #p-style {
-    text-decoration: underline;
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 10px;
+text-decoration: underline;
+text-align: left;
+margin-top: 10px;
+margin-left: 10px;
 }
 
 .h-style {
-    text-align: center;
-    margin-top: 10px;
+text-align: center;
+margin-top: 10px;
 }
 
 /* Style for images from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity */
@@ -162,26 +154,37 @@ body {
   
   .text {
     color: rgb(142, 137, 137);
-    font-size: 50px;
-  }
-
-
-  /* Form styling */
-
-  #form-align   {
-    text-align: center;
     font-size: 2rem;
   }
 
-  .dropdown {
-    color: rgb(142, 137, 137);
-    font-size: 1.5rem;
-  }
+  /* Styling for table */
+  table, th, td {
+    border: 1px solid;
+}
+
+table {
+    width: 40%;
+    text-align: center;
+}
+
+#table-styling {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 10px;
+}
+
+/* Form styling */
+
+/* Footer styling */ 
+
+input {
+    border: 2px solid rgb(142, 137, 137);
+    border-radius: 4px;
+}
 
   /* Footer styling */
 
   #footer-style {
-    background-color: antiquewhite;
     text-align: center;
     word-spacing: 30px;
   }
@@ -195,4 +198,3 @@ body {
     font-size: 100px;
     width: 20px;
   }
-
