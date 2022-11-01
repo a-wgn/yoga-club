@@ -156,6 +156,7 @@ margin-top: 10px;
   }
 
   /* Styling for table */
+
   table, th, td {
     border: 1px solid;
 }
@@ -176,9 +177,14 @@ table {
 input {
     border: 2px solid rgb(142, 137, 137);
     border-radius: 4px;
+    width: 20%;
+    height: 30px;
+    margin-top: 10px;
 }
 
-
+#form-align {
+    text-align: center;
+}
 
   /* Footer styling */
 
