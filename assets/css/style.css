@@ -90,7 +90,6 @@ h3 {
 
 #about-us {
 text-align: center;
-background-color: antiquewhite;
 }
 
 #text-left {
@@ -166,6 +165,7 @@ text-align: center;
 table {
     width: 25%;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #table-styling {
@@ -175,10 +175,6 @@ table {
 }
 
 /* Form styling */
-
-#sign-up {
-    background-color: antiquewhite;
-}
 
 #form-align {
     text-align: center;
@@ -211,7 +207,21 @@ input[type=submit] {
     font-size: 20px;
     font-family: Kalam, sans-serif;
     color: black;
-    background-color: antiquewhite;
+    background-color: transparent;
+}
+
+.bg-img {
+    background: url(../images/yoga-matt2.jpg);
+    width: 100%;
+  height: 500px;
+  object-fit: fill;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+
 }
 
   /* Footer styling */
@@ -235,5 +245,10 @@ input[type=submit] {
 
   #address-right {
     margin-left: 150px;
+    margin-top: 10px;
+  }
+
+  .gmap_canvas {
+    margin-left: 600px;
     margin-top: 10px;
   }
